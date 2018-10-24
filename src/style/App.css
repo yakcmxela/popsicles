@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+.Locations {
+}
+
+.App {
+	display: flex;
+}
+
+.LocationList {
+}
+
+.EventsList {
+	display: inline-block;
+}
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+		transform: translateY(12px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.PostCard {
+	animation: fade-in 1s ease-in;
+}
